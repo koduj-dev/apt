@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: koduj-dev
+Label: Docker Commander
+Architecture: amd64
+Description: Docker Commander APT repository — https://github.com/koduj-dev/docker-commander
