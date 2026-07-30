@@ -1,17 +1,17 @@
 Package: dockercmd
-Version: 1.5.0
+Version: 1.5.1
 Architecture: amd64
 Maintainer: koduj-dev <noreply@koduj.dev>
-Installed-Size: 27506
+Installed-Size: 27634
 Recommends: docker.io | docker-ce
 Homepage: https://github.com/koduj-dev/docker-commander
 Priority: optional
 Section: admin
-Filename: pool/main/d/dockercmd/dockercmd_1.5.0_amd64.deb
-Size: 10246200
-SHA256: 2f2e38d1bdafa310af7842f660320001dcc13ce24cbc3dca849e42fbef40c490
-SHA1: 2a537c5b07fbd0f5cccc4955627bca19ee8119a7
-MD5sum: d99076b6d7e4f225b7ed1677dc6da7ff
+Filename: pool/main/d/dockercmd/dockercmd_1.5.1_amd64.deb
+Size: 10312904
+SHA256: d474842ddac1f44f0a2d9312e852d771d5f94b29d9be43b04d0534fa958cf5dd
+SHA1: 26ec2cc511501a93dcdb067b8f0307540eb8fe80
+MD5sum: ef862c46c339e79444d63d2609ba0f88
 Description: Monitor and control Docker from one self-contained binary.
  Docker Commander is a single CGO-free Go binary with an embedded web UI for
  containers, stacks, Compose projects, images, volumes, networks, logs, events,
