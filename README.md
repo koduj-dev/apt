@@ -1,22 +1,45 @@
 # koduj-dev/apt
 
-Signed **APT repository** for [**Docker Commander**](https://github.com/koduj-dev/docker-commander)
-(`dockercmd`). Served via GitHub Pages at <https://koduj-dev.github.io/apt/> and
-published automatically on each release (the `.deb` packages are added with
-`reprepro` and the archive is GPG-signed).
+Signed **APT repository** for the koduj-dev projects:
+
+| Package | Project |
+|---------|---------|
+| `dockercmd` | [**Docker Commander**](https://github.com/koduj-dev/docker-commander) — monitor and control Docker from one self-contained binary |
+| `ccd` | [**Context Commander**](https://github.com/koduj-dev/context-commander) — shared context and collaboration layer for humans and AI agents |
+
+Served via GitHub Pages at <https://koduj-dev.github.io/apt/> and published
+automatically on each release (the `.deb` packages are added with `reprepro`
+and the archive is GPG-signed). Supports **amd64** and **arm64**.
 
 ## Install
 
 ```bash
 curl -fsSL https://koduj-dev.github.io/apt/key.asc \
-  | sudo tee /etc/apt/keyrings/dockercmd.asc >/dev/null
-echo "deb [signed-by=/etc/apt/keyrings/dockercmd.asc] https://koduj-dev.github.io/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/dockercmd.list >/dev/null
-sudo apt update && sudo apt install dockercmd
+  | sudo tee /etc/apt/keyrings/koduj-dev.asc >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/koduj-dev.asc] https://koduj-dev.github.io/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/koduj-dev.list >/dev/null
+sudo apt update
+sudo apt install dockercmd   # and/or: sudo apt install ccd
 ```
 
-Supports **amd64** and **arm64**. Then create the admin account in the UI
-(`http://127.0.0.1:8470` by default).
+One repository, one key: if you already added it for one package, just
+`apt install` the other. (Older instructions saved the same key as
+`dockercmd.asc` in a `dockercmd.list` — that keeps working unchanged.)
+
+After installing, see each project's docs: Docker Commander serves its UI on
+`http://127.0.0.1:8470`; Context Commander needs a Postgres first — see its
+[install guide](https://github.com/koduj-dev/context-commander/blob/main/docs/install.md).
+
+## "Repository changed its 'Label' value"
+
+The repository's `Label` was renamed from `Docker Commander` to `koduj-dev`
+when it started carrying a second project. apt asks you to accept that once;
+until you do, `apt-get update` (and unattended upgrades) skip this
+repository:
+
+```bash
+sudo apt update --allow-releaseinfo-change-label
+```
 
 ## Contents
 
@@ -24,5 +47,6 @@ Supports **amd64** and **arm64**. Then create the admin account in the UI
 - `key.asc` — the public signing key (verify the repo's `Release`).
 - `conf/distributions` — the reprepro distribution config.
 
-This repository is published by the `apt` job in
-[docker-commander's release workflow](https://github.com/koduj-dev/docker-commander/blob/main/.github/workflows/release.yml).
+This repository is published by the `apt-publish.yml` workflow of each
+project ([docker-commander](https://github.com/koduj-dev/docker-commander/blob/main/.github/workflows/apt-publish.yml),
+[context-commander](https://github.com/koduj-dev/context-commander/blob/main/.github/workflows/apt-publish.yml)).

@@ -1,8 +1,8 @@
 Origin: koduj-dev
-Label: Docker Commander
+Label: koduj-dev
 Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Description: Docker Commander APT repository — https://github.com/koduj-dev/docker-commander
+Description: koduj-dev APT repository — Docker Commander (dockercmd) and Context Commander (ccd)
 SignWith: yes
