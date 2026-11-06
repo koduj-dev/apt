@@ -5,44 +5,44 @@ Origin: koduj-dev
 Label: koduj-dev
 Suite: stable
 Codename: stable
-Date: Tue, 27 Oct 2026 20:14:31 UTC
+Date: Fri, 06 Nov 2026 12:45:26 UTC
 Architectures: amd64 arm64
 Components: main
 Description: koduj-dev APT repository — Docker Commander (dockercmd) and Context Commander (ccd)
 MD5Sum:
- 7a8ef1a4a443d3d5a2305bd8456b76b8 1420 main/binary-amd64/Packages
- 362f6d91f4f856d5485b281d48b3f10c 792 main/binary-amd64/Packages.gz
+ 6518301adc7404aad27f0de86aebf6e6 1420 main/binary-amd64/Packages
+ c9be152360b9dd19b91ed0361d6a9dbb 791 main/binary-amd64/Packages.gz
  485e5ede8dc31b034d78c3eb65c85f80 189 main/binary-amd64/Release
- 59a6adc42a90aa997fb807d0865f3ea4 1420 main/binary-arm64/Packages
- 274c594f680f6ee974b4a23df4ee374d 793 main/binary-arm64/Packages.gz
+ e063ccbe41fa2365ea94172c40bb308b 1420 main/binary-arm64/Packages
+ 34cdc7cbd475954b607615b56f6322f2 788 main/binary-arm64/Packages.gz
  c9915f04ca26b368407da8a290c5f6b6 189 main/binary-arm64/Release
 SHA1:
- e83b0b663fd52d39535dbdeaaa369862648e1d71 1420 main/binary-amd64/Packages
- a9e4b015a456685507c277af4b9e1670dfe56332 792 main/binary-amd64/Packages.gz
+ 6ddd877845cf9f304405cffa9219c1a0fb689cb0 1420 main/binary-amd64/Packages
+ 0c1a2f877f302098741ba9420a4d152267f95dc9 791 main/binary-amd64/Packages.gz
  7b87679a8be6a4d751d56c6fdcfc8b2e83176555 189 main/binary-amd64/Release
- 341855ae1baad80704e4d40b424e68800b8914af 1420 main/binary-arm64/Packages
- 905f6f444278f96803936bbc83fc370fdb2d80c8 793 main/binary-arm64/Packages.gz
+ e94cbaa9ae7b4b7de99d98da32ef6cee6f16dc80 1420 main/binary-arm64/Packages
+ a701c9060f43727bab4ad191ef829e1c4c163c3c 788 main/binary-arm64/Packages.gz
  02a38a121640ef9b0232f481af3d6b1329a8b051 189 main/binary-arm64/Release
 SHA256:
- 7cfd2d60cd7c6bdc33e41cc98355588971372aac889aa618e7b589464252d1b0 1420 main/binary-amd64/Packages
- 7ccce5064cbca276b67f790a8f9c35942f5fc5e1aef37b7dde8210cce582c9d6 792 main/binary-amd64/Packages.gz
+ ca9862fc6d2c166ba9318d330e48ba430bb17cb2d9d3d0bffe2f46f89cc827fb 1420 main/binary-amd64/Packages
+ d7b96996fe3315d4278cf60c39b2936b5eaf5e40d306a81b95589b56577b09bb 791 main/binary-amd64/Packages.gz
  17dd3568b110d7b45bdaff9034339592a036ece9871440020f093b4e759be48b 189 main/binary-amd64/Release
- eaefd3829591da6a0d3e4e97294ec9132c2d447267cd117ee02ba48b82b88aa5 1420 main/binary-arm64/Packages
- 419589acd5c2e8cdf320fd950344900e4757b1687797506fcb6c9d5cd86f735e 793 main/binary-arm64/Packages.gz
+ 757ae1735e864f7ce1ff8f6d9fcda8fbd599aea96b53db1a357e724f818ca636 1420 main/binary-arm64/Packages
+ 44d09dba4169703113efe528dbcb535841c207f1bbdb0c77a8f8eab9317feda7 788 main/binary-arm64/Packages.gz
  293fb5c71738b9e6d0889c8a1d10021ce72ad1382e8e603fd9a83a01181fac47 189 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmrhBicACgkQOJK6ansj
-E3lN/BAAoP2c6TZuSMYWv/F79qL5DCneyqW8dFfXy+U5QR0OYvPrfJ/H4KFNLdRB
-MmaorkzKCf/motVjxAiLL7rDeuRxnQx7z+aOYX3Z+x1ztGoYo/dcPKcH216BOk/S
-b3ZZ55YUEDkZTsi4neYhvZTKzJT7zDK5YSD9m6sa9vUByIUusW55Qv1NtC/AsF3R
-y4//64dWsg2UtvcoLUBSCHAmsspMN6c/P5iAhLS3t395NbQsHE5wKXsSIsUnoAQx
-CKmaaYiIPT+RrFsvhHNPRMxYPsxBDoEUyWnmukFRiVA5XBYMeXtXkVAtsz4zy+Tk
-AiGF/nfIVHxqhhGLvnJvbkUtdrSGD3DVUUCJ8ayDMd3LBYCMYCKPFs170aU3XoWB
-fWRcvkMvl5ovRAZtykGSFlSa3F5cx5F52oI0momEQ+KlCHB9ctKjVGe0vjbWjUi9
-KRTtPdq15s6O3787ySwxd85O0kylj0Hkhk9CIbeCpSADRArascRkMJEED/SYf74F
-I7PWRkL7RjG1xK4jqny5O3K1BoNhpUAiUbFjZJAPFx6h2CcuxBMuWe9zJEfpL2v/
-FlHjQRude4qds4sTMBI5VKRNay0uBhV1LFhcdD1DuRkBJdwnxHn1gZT1aqjtNUbZ
-TADe1qidKMYJNjw/19Vg88tpN1L41V0UeMUQXo77wqtSpf+aqGM=
-=yoJI
+iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmrty+YACgkQOJK6ansj
+E3knURAAp5qqxM7wLhXcv5t8mnmJd+zJbqi5UOIAK0i8Wlv/jlJcYIn6PAlpprLJ
+inxjglBaO5CqRc1wlbWlAHitiKf/mejCbsTZW1Fofhu5DKRYbBYNoFf6HNlvSMxW
+R0Iu11xKzK25IxuNFnk3QPKcKZ/VH2SRMT2+F+JAcltxIXLjOqZhLosJIV97Zhqk
+2kVUQzBW0YbuPB2/T6GeC6YErKgwn+a8nDGgN5l8Aaa6Yc0aoB6ZUWZmEhAqRrlA
+ToYcpkmiG5hM6Sl6PxXxG1d2hwqsl7Mohfowy35kB+W80BYoHRb/meEVsbQJkqcH
+Q5LaiLy6yRRsVqwZMRnVDbg3z8wF0jjrQhJ5H8XaEQNc0/8WCkicd/IMDCLLIIZW
+l0umL8N1uYh677miGT0znoy09xnaN7cRAKkCTetaHL9LG4E41sblSL90RRzuEMsZ
+DyHNkZYqOz0mA9zbqvnwdAMISdAhIuDbBNU2GkTd41EYGMZwvefK9TWL/vGKTwQS
++7BuW0nRxvG0MnrXA4ADpDrJyBprZILosw/9eqHblXgRet+TtW3ElnEil4BysaG/
+eCRDTiUvV79IM78qrqgAZ5a1Kwb9y02mXpOlsKWG2V5RsRcudjbrCR5ZZa6DvOON
+Msc8IaQsdNjprE5GMNahBXpFGj9OwEvYE2VT7hFEXy/kdUHyIJg=
+=isxd
 -----END PGP SIGNATURE-----
