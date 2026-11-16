@@ -5,44 +5,44 @@ Origin: koduj-dev
 Label: koduj-dev
 Suite: stable
 Codename: stable
-Date: Mon, 16 Nov 2026 16:39:49 UTC
+Date: Mon, 16 Nov 2026 23:24:54 UTC
 Architectures: amd64 arm64
 Components: main
 Description: koduj-dev APT repository — Docker Commander (dockercmd) and Context Commander (ccd)
 MD5Sum:
- bce21dd656513820f0721842624747fa 1420 main/binary-amd64/Packages
- 7b5099accf9b2584c8166e5efb0c0f87 791 main/binary-amd64/Packages.gz
+ fdf715a1088ec1e860e88cf287ff8c78 1420 main/binary-amd64/Packages
+ 3cbf914f51b5306af494f72935d460e2 793 main/binary-amd64/Packages.gz
  485e5ede8dc31b034d78c3eb65c85f80 189 main/binary-amd64/Release
- 075ef9aa91edcbd0211703e5d0feb1a2 1420 main/binary-arm64/Packages
- 1645de74a3609f96e30d036de4a70385 792 main/binary-arm64/Packages.gz
+ af9bdcdae97089d4aa2403cf7e4963cd 1420 main/binary-arm64/Packages
+ cda49966a9c6f9f4eb170e62d61df659 790 main/binary-arm64/Packages.gz
  c9915f04ca26b368407da8a290c5f6b6 189 main/binary-arm64/Release
 SHA1:
- 8f8df6a6529910fafbfad8b7f24d8d6cd45a3d47 1420 main/binary-amd64/Packages
- 0eb7387e1140d258d8c5ef4be24eae10cfe3cd62 791 main/binary-amd64/Packages.gz
+ f4fd9160b3de355fd2a5d12b11ef412d5de458ee 1420 main/binary-amd64/Packages
+ 064ea5930a6b136e8868c2fd43789c16ab1edaa8 793 main/binary-amd64/Packages.gz
  7b87679a8be6a4d751d56c6fdcfc8b2e83176555 189 main/binary-amd64/Release
- 894a12eea7870c8cd6ee346d8a5386d9a0533a1b 1420 main/binary-arm64/Packages
- 724c423d184aad8c6b79530f68df39694f8624bd 792 main/binary-arm64/Packages.gz
+ 7ec8ce341bd91f9983e3b8307c471b049b621633 1420 main/binary-arm64/Packages
+ d064db7e49746d2219394e4f15b4a9d2b0ea46d1 790 main/binary-arm64/Packages.gz
  02a38a121640ef9b0232f481af3d6b1329a8b051 189 main/binary-arm64/Release
 SHA256:
- 57e5de1718ab9f5089e49e9233af319588ec655d59296443148a5d5f989b5e3c 1420 main/binary-amd64/Packages
- fc40fd3ed8163f62a302d6e8f0c798a51686019e181d7669ce6739bfccbe06d4 791 main/binary-amd64/Packages.gz
+ 2b2ccac1d3d0074305106de427c2adbadec0e05867105ff60599b48785699cfd 1420 main/binary-amd64/Packages
+ 8bb1b94bc0c0e6bea084021a3e27332c385912b765cd6d57e159e7d26ea45ce7 793 main/binary-amd64/Packages.gz
  17dd3568b110d7b45bdaff9034339592a036ece9871440020f093b4e759be48b 189 main/binary-amd64/Release
- df1a325030643caed8980ba233d08c14345cf431d2382d7915394f216d0a369f 1420 main/binary-arm64/Packages
- e3aa5802f04580accc80d1d4e068bfd201e5b69402a2d6d00902b00257510cb9 792 main/binary-arm64/Packages.gz
+ 66f48a57e7dd18e8ae2324b9a91eed4effb1cfeb1a2fe1f66cb99cc7429c246e 1420 main/binary-arm64/Packages
+ 5bcbee3dbe510d8f76e4224007eca85c101c64b5bee3d9bab4ae9b6110e01541 790 main/binary-arm64/Packages.gz
  293fb5c71738b9e6d0889c8a1d10021ce72ad1382e8e603fd9a83a01181fac47 189 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmr7MdUACgkQOJK6ansj
-E3kspQ//ef0BSM5mDHB65R0zyS+1452/YO3gFCGdgfHdlhfpUpt7oq4fWGEim5O5
-4EkoNQ3d2In6kRYAFdeBP+/kTChjB+rHRG4F+/HXdqVb2bkLWhhqjCUpt9aTquDf
-/ELvVdCuOdQlwfE3S8mmieW0Av6e6NXKAs/xJALTiRSCXall0XxyeVpuE2hspEKH
-0wi1guCTdKkYD5Li6Tp0jaXEIxFgC1h1ULOiriWTVNB7GDn31BKq7Wd9q0TPhP3k
-Ju+EwpD1vcPMawuzDOi40j18wEhUvZf57Ux/0MzQWI+jl4fq3CBzzXAlnLu2oFdg
-wm9+C4A/aXPxZ5kFsErghtVE8QQS30yvkFH30iObvhkxUk/ZeEsqY2HbWuJtl+Tm
-TlY5/FgmFbL59WbXs7Q54CORE0aY4VEmU5dONJB6qIMAuEVUfRab8Si+ThrXaxfy
-snyYC+ef8iaRINri2vFyabJcfnCXcmSXCyzL8IRgASyqo3YtGzkhVWshuaWhqBQS
-CZXWkOBW+gvuN159Wc/8O1X+bZ7c8WSHDoR4lWfqpM8cHmVh/57/K2BfGh+Ys+PX
-xURTTLbdQf13hpi/qCh4TjknhlveJFhYkyQ0fNBonOh32RspnPWC/P6iv+shBYA7
-t1IYLejeLakdp6o0EWNHeW8RPQSfVGFA1adALXBp3CMUEbnOeqw=
-=Jog4
+iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmr7kMYACgkQOJK6ansj
+E3n/xw//arr9sO3pFj21jCuHSp9bc4hlT3UISPz7iIfDTrMzAK3SQRSbBdg+91OF
+kq+sWKnxfScGRWh/GE5DzbyHXU+cUggXPUMxGj+C82goaeIVtyrGuftFKTkr6GK6
+qSycF8D1WZ9LN8CY83W78K0vaFG9/kaU5UNTBG1sMPsts4etAiIi1A50SIgPseJ0
+lROfipqkfxzyAPkjuU1YDUa8rvkfCVASm4v4dhrkI4xXlIfApHcv3Al6rYEWVH2R
+nMJVZhMGbtZkQ4nfPA1s73KQfAnSaBdNZcNXT9GwKzbvfM2MYiyDsXVSQoRHLugb
+m+3Dmzeo67NKcEb0ZJLoqGeS59wxl2fra+4oixjD8h4iygrm4ugxBr32DVPkuRvl
+a2nFNPaGyKtSswxMcVSIS+pc84CKmLiKhIUR6Kn5hEcKpAbvnLvkLtL5XI3Ds8tD
+tQ0uYg6YphkvZnwFspubaPOspFvH4j368Yb9d9XC7YORmeBi3hZKiEHhME1gIfH2
+63W0c2hw6cCJEd/MqwbvaqHzsBSGk5nRRIBJltgKMV/Y2wXO4c7dUxDwAA6SwW4P
+cHJi6G/pm8L31zMS/nCdA0dnENiRCFf0P+pA4y0p3KxyVbIi1AOKACTtQSCG6Juh
+qXks5gs1uk8wnfP1IAvl7g5wb/CxeqnMWxetIvz8kvtsRY6VmqI=
+=HcQI
 -----END PGP SIGNATURE-----
