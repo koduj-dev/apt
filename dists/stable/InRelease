@@ -5,44 +5,44 @@ Origin: koduj-dev
 Label: koduj-dev
 Suite: stable
 Codename: stable
-Date: Fri, 13 Nov 2026 11:49:00 UTC
+Date: Mon, 16 Nov 2026 16:39:49 UTC
 Architectures: amd64 arm64
 Components: main
 Description: koduj-dev APT repository — Docker Commander (dockercmd) and Context Commander (ccd)
 MD5Sum:
- 6c057011f8335c8fec4d64bcdda6f933 1420 main/binary-amd64/Packages
- 38c598d1632c114e557af912426e942f 787 main/binary-amd64/Packages.gz
+ bce21dd656513820f0721842624747fa 1420 main/binary-amd64/Packages
+ 7b5099accf9b2584c8166e5efb0c0f87 791 main/binary-amd64/Packages.gz
  485e5ede8dc31b034d78c3eb65c85f80 189 main/binary-amd64/Release
- 0f9e38c597d4b0617acab042d8e37685 1420 main/binary-arm64/Packages
- 639e4fc6c80836b9bbe50fbbe5d73321 791 main/binary-arm64/Packages.gz
+ 075ef9aa91edcbd0211703e5d0feb1a2 1420 main/binary-arm64/Packages
+ 1645de74a3609f96e30d036de4a70385 792 main/binary-arm64/Packages.gz
  c9915f04ca26b368407da8a290c5f6b6 189 main/binary-arm64/Release
 SHA1:
- 14a1706575cce6af141812235e32cb4e80a98d54 1420 main/binary-amd64/Packages
- 6f0829d0100e30dd80dc8d18561324c243de0fc5 787 main/binary-amd64/Packages.gz
+ 8f8df6a6529910fafbfad8b7f24d8d6cd45a3d47 1420 main/binary-amd64/Packages
+ 0eb7387e1140d258d8c5ef4be24eae10cfe3cd62 791 main/binary-amd64/Packages.gz
  7b87679a8be6a4d751d56c6fdcfc8b2e83176555 189 main/binary-amd64/Release
- b69b83476169d54d61341b544c238a09a5967b44 1420 main/binary-arm64/Packages
- 4d9734cdab436a02c373a41414190731342e9fa4 791 main/binary-arm64/Packages.gz
+ 894a12eea7870c8cd6ee346d8a5386d9a0533a1b 1420 main/binary-arm64/Packages
+ 724c423d184aad8c6b79530f68df39694f8624bd 792 main/binary-arm64/Packages.gz
  02a38a121640ef9b0232f481af3d6b1329a8b051 189 main/binary-arm64/Release
 SHA256:
- 561a46dd43d8c9d473443b406d3bd6d6094825496ab8782de90daf2a1d371bc0 1420 main/binary-amd64/Packages
- 263fc725cdbe6c6998c4574212180f83bd4633dcf7c6da05f618dd28c38b4ffd 787 main/binary-amd64/Packages.gz
+ 57e5de1718ab9f5089e49e9233af319588ec655d59296443148a5d5f989b5e3c 1420 main/binary-amd64/Packages
+ fc40fd3ed8163f62a302d6e8f0c798a51686019e181d7669ce6739bfccbe06d4 791 main/binary-amd64/Packages.gz
  17dd3568b110d7b45bdaff9034339592a036ece9871440020f093b4e759be48b 189 main/binary-amd64/Release
- 10b546f73bdbd5fde0040b219756a04dbd3b391d30fbbda1753a167904f79c66 1420 main/binary-arm64/Packages
- d78dbf2bbe3e4dd16f9ef834de33b3aff79d9dc94c57da39117ab68ec90108ec 791 main/binary-arm64/Packages.gz
+ df1a325030643caed8980ba233d08c14345cf431d2382d7915394f216d0a369f 1420 main/binary-arm64/Packages
+ e3aa5802f04580accc80d1d4e068bfd201e5b69402a2d6d00902b00257510cb9 792 main/binary-arm64/Packages.gz
  293fb5c71738b9e6d0889c8a1d10021ce72ad1382e8e603fd9a83a01181fac47 189 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmr2+SwACgkQOJK6ansj
-E3nusQ//RrGSgkOyLWtMBzBWF/1h6iV6cJJZl/voTqMx3y9vptEoVmAson5BwYGD
-zl7htVWm7tP0hOmCYjxssUrcoE5lEL/XOpLUbTIWjL9QOJe3FbVJntqh0b8+j+Xw
-2/NCt8tb4b/lTIZFwZm+30Lhy2+dsNZhIuMU7qcAxJWzwVXIWjnjTwBBlvIieb8R
-KgSiCCZMFxrkbcpGVPMIWsirTD4D7DE5HqiKlms+BdHCbN+pMCKdsO7WNgjoP10O
-mGYlgYpxvg+E0VJ0FcXlBxdZaDTMOE4aW26zfSi7KgjAjVEPLnnCNg6rHGRQvvVU
-8cPDmrGzqajVip680hiJSqceAzhN5VoSY/aUPUpvemGas87i04tnxN9HR3Ik7oG0
-9v5fDUbOFnW9mYaP6jRbsN+QCXYXv3ZMqU5fpsU7moL2ZNAiPIiMymF2SjTELDBO
-RwYnv+vHNGZCc4clIGFyHKDDj/S+ZJVRmi93/JpamzPRE4dLfuWIpzgTzKBk8RYL
-nbXtnNubvX+9Zup2JHHjaiRRrJcK33QE17Er/j5oz2Sy6YVY+F8xxwwgyu6K0Dx3
-F0HB/jdl5emJdxmB+2efWiY+pwNgHHijorxbvzfRyX8ICJpjsH9iUaXwWAJOpYv8
-BsxIKBjy/eLhzf8eUN6GqGCjRm0fXOQC/u11YHCf4kO5hpbz0S0=
-=F1xj
+iQIzBAEBCgAdFiEE8WlePiwQw2ADesOZOJK6ansjE3kFAmr7MdUACgkQOJK6ansj
+E3kspQ//ef0BSM5mDHB65R0zyS+1452/YO3gFCGdgfHdlhfpUpt7oq4fWGEim5O5
+4EkoNQ3d2In6kRYAFdeBP+/kTChjB+rHRG4F+/HXdqVb2bkLWhhqjCUpt9aTquDf
+/ELvVdCuOdQlwfE3S8mmieW0Av6e6NXKAs/xJALTiRSCXall0XxyeVpuE2hspEKH
+0wi1guCTdKkYD5Li6Tp0jaXEIxFgC1h1ULOiriWTVNB7GDn31BKq7Wd9q0TPhP3k
+Ju+EwpD1vcPMawuzDOi40j18wEhUvZf57Ux/0MzQWI+jl4fq3CBzzXAlnLu2oFdg
+wm9+C4A/aXPxZ5kFsErghtVE8QQS30yvkFH30iObvhkxUk/ZeEsqY2HbWuJtl+Tm
+TlY5/FgmFbL59WbXs7Q54CORE0aY4VEmU5dONJB6qIMAuEVUfRab8Si+ThrXaxfy
+snyYC+ef8iaRINri2vFyabJcfnCXcmSXCyzL8IRgASyqo3YtGzkhVWshuaWhqBQS
+CZXWkOBW+gvuN159Wc/8O1X+bZ7c8WSHDoR4lWfqpM8cHmVh/57/K2BfGh+Ys+PX
+xURTTLbdQf13hpi/qCh4TjknhlveJFhYkyQ0fNBonOh32RspnPWC/P6iv+shBYA7
+t1IYLejeLakdp6o0EWNHeW8RPQSfVGFA1adALXBp3CMUEbnOeqw=
+=Jog4
 -----END PGP SIGNATURE-----

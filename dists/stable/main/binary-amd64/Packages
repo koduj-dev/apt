@@ -17,19 +17,19 @@ Description: Self-hosted, vendor-neutral shared context and collaboration layer 
  MCP server and web UI, backed by Postgres.
 
 Package: dockercmd
-Version: 1.7.3
+Version: 1.7.4
 Architecture: amd64
 Maintainer: koduj-dev <noreply@koduj.dev>
-Installed-Size: 37764
+Installed-Size: 37740
 Recommends: docker.io | docker-ce
 Homepage: https://github.com/koduj-dev/docker-commander
 Priority: optional
 Section: admin
-Filename: pool/main/d/dockercmd/dockercmd_1.7.3_amd64.deb
-Size: 14063960
-SHA256: b745948bce660fde7f7e20f9039fceea04eef1717f2b03ace39ad7602ec5c193
-SHA1: 4087c4d19bebf77d14338d8bff3d28ee2ffda8d9
-MD5sum: cbec81d2993fbfedeafc28d2e300704a
+Filename: pool/main/d/dockercmd/dockercmd_1.7.4_amd64.deb
+Size: 14088434
+SHA256: 90101febb895814d2cb59552fc9eb7afdb493fe82b4820b3c8cf191760f4cf80
+SHA1: 58d883aad72c7cad981bea52fa8a290ee3fc1122
+MD5sum: c2cfecca9c53961a62a4f22d6d2c56db
 Description: Monitor and control Docker from one self-contained binary.
  Docker Commander is a single CGO-free Go binary with an embedded web UI for
  containers, stacks, Compose projects, images, volumes, networks, logs, events,
