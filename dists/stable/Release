@@ -2,28 +2,28 @@ Origin: koduj-dev
 Label: koduj-dev
 Suite: stable
 Codename: stable
-Date: Mon, 16 Nov 2026 23:24:54 UTC
+Date: Tue, 17 Nov 2026 01:02:52 UTC
 Architectures: amd64 arm64
 Components: main
 Description: koduj-dev APT repository — Docker Commander (dockercmd) and Context Commander (ccd)
 MD5Sum:
- fdf715a1088ec1e860e88cf287ff8c78 1420 main/binary-amd64/Packages
- 3cbf914f51b5306af494f72935d460e2 793 main/binary-amd64/Packages.gz
+ b1162a02bd748593a91c5ab5cd1c6e74 1420 main/binary-amd64/Packages
+ dddd95d666016da78b9ff4fc023f2ad8 791 main/binary-amd64/Packages.gz
  485e5ede8dc31b034d78c3eb65c85f80 189 main/binary-amd64/Release
- af9bdcdae97089d4aa2403cf7e4963cd 1420 main/binary-arm64/Packages
- cda49966a9c6f9f4eb170e62d61df659 790 main/binary-arm64/Packages.gz
+ 01e4a4aa10ef0f985832256f472f4310 1420 main/binary-arm64/Packages
+ 228d20550ae4f80844cfd64fa9b88e6e 790 main/binary-arm64/Packages.gz
  c9915f04ca26b368407da8a290c5f6b6 189 main/binary-arm64/Release
 SHA1:
- f4fd9160b3de355fd2a5d12b11ef412d5de458ee 1420 main/binary-amd64/Packages
- 064ea5930a6b136e8868c2fd43789c16ab1edaa8 793 main/binary-amd64/Packages.gz
+ f35f7363c9e3641c09649eeb0aab61c207aa4f9b 1420 main/binary-amd64/Packages
+ 2f77de83760009d789dc2f665cee75f536d415d8 791 main/binary-amd64/Packages.gz
  7b87679a8be6a4d751d56c6fdcfc8b2e83176555 189 main/binary-amd64/Release
- 7ec8ce341bd91f9983e3b8307c471b049b621633 1420 main/binary-arm64/Packages
- d064db7e49746d2219394e4f15b4a9d2b0ea46d1 790 main/binary-arm64/Packages.gz
+ 86b0976ec6d1e65c771ec77fc2a490b9c2d5d972 1420 main/binary-arm64/Packages
+ 431b2c9c8bca8f88fde4cab3765b5dffba5a35d3 790 main/binary-arm64/Packages.gz
  02a38a121640ef9b0232f481af3d6b1329a8b051 189 main/binary-arm64/Release
 SHA256:
- 2b2ccac1d3d0074305106de427c2adbadec0e05867105ff60599b48785699cfd 1420 main/binary-amd64/Packages
- 8bb1b94bc0c0e6bea084021a3e27332c385912b765cd6d57e159e7d26ea45ce7 793 main/binary-amd64/Packages.gz
+ 6b96484f70ada9b7a56e540f10224e8a0de03d11cc32679b6f1cfd921a3e80c2 1420 main/binary-amd64/Packages
+ 4027db9471dfb7bec6c24d5a0d57e6e337e986e3705b122ae971f32db7b839d7 791 main/binary-amd64/Packages.gz
  17dd3568b110d7b45bdaff9034339592a036ece9871440020f093b4e759be48b 189 main/binary-amd64/Release
- 66f48a57e7dd18e8ae2324b9a91eed4effb1cfeb1a2fe1f66cb99cc7429c246e 1420 main/binary-arm64/Packages
- 5bcbee3dbe510d8f76e4224007eca85c101c64b5bee3d9bab4ae9b6110e01541 790 main/binary-arm64/Packages.gz
+ 2c6ecfa92ec5793d0b9c0027c5f32ea5fd3ac2ea63b3585df074b29cc96cc983 1420 main/binary-arm64/Packages
+ 1b0bb114df18345dc8d6a56940d3b71e16511efd0eb9b883320386980c120e85 790 main/binary-arm64/Packages.gz
  293fb5c71738b9e6d0889c8a1d10021ce72ad1382e8e603fd9a83a01181fac47 189 main/binary-arm64/Release
