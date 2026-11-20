@@ -1,17 +1,17 @@
 Package: ccd
-Version: 0.1.0~beta.4
+Version: 0.1.0~beta.5
 Architecture: amd64
 Maintainer: koduj-dev <noreply@koduj.dev>
-Installed-Size: 21884
+Installed-Size: 21948
 Recommends: postgresql
 Homepage: https://github.com/koduj-dev/context-commander
 Priority: optional
 Section: admin
-Filename: pool/main/c/ccd/ccd_0.1.0~beta.4_amd64.deb
-Size: 8414788
-SHA256: c94e756824544041bca9fe3c6c3bdce4ed75e47b95ca0afbd8dab5c69a261d66
-SHA1: 59b78a9e217eaabccb58be8858ad21452d935e14
-MD5sum: dd31147d2e6c5946f755d9320ded29b0
+Filename: pool/main/c/ccd/ccd_0.1.0~beta.5_amd64.deb
+Size: 8443120
+SHA256: 91447f360582c832af5682b3951b82aac33b780c6706f2ebec18c33d11b8d703
+SHA1: 08710a415f8934cf956ac087ebe647376121079f
+MD5sum: b6dad993eddebef210baa85f08002602
 Description: Self-hosted, vendor-neutral shared context and collaboration layer for
  humans and AI agents. ccd is a single Go binary serving the REST API and
  MCP server and web UI, backed by Postgres.
